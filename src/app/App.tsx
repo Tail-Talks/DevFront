@@ -10,11 +10,11 @@ Modal.setAppElement('#root')
 function App() {
 
   return (
-    <div className='w-full h-96 cursor-default'>
+    <>
       <Header />
       <Main />
       <Footer />
-    </div>
+    </>
   )
 }
 

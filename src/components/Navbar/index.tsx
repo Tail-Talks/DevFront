@@ -11,8 +11,8 @@ export default function Navbar() {
   const linksStyle = 'font-Rubik Variable text-[#000000] dark:text-white font-medium'
 
   return (
-    <>
-      <div className='3xl:grow 3xl:px-96 3xl:text-3xl flex text-lg justify-between items-center w-[725px] h-7'>
+    <div className='hidden lg:flex lg:w-full'>
+      <div className='3xl:grow 3xl:px-96 3xl:text-3xl flex text-lg justify-between items-center w-[725px] h-7 mx-auto'>
         <a
           href="#mission"
           className={linksStyle}>
@@ -55,6 +55,6 @@ export default function Navbar() {
         </img>
 
       </div>
-    </>
+    </div>
   )
 }
