@@ -16,7 +16,7 @@ const ButtonBread: React.FC<ButtonBreadProps> = (props) => {
 		type={type}
 		{...props}
 		className={classNames(
-			'font-sans font-bold text-lg 3xl:text-2xl h-16 3xl:w-96 3xl:h-24 rounded-2xl bg-bread mt-10',
+			'font-sans font-bold text-lg 3xl:text-2xl h-16 3xl:w-96 3xl:h-24 rounded-2xl bg-bread',
 			width || 'w-96', // // Устанавливает ширину по умолчанию или ширину из пропсов
 			className // Добавляет дополнительные классы, если они переданы через пропсы
 			)}>

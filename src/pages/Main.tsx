@@ -19,7 +19,7 @@ export default function Main() {
   const { theme } = useTheme()
 
   return (
-    <main>
+    <main className='xl:mt-[150px]'>
       <Preview />
       <div className='container mx-auto px-4 3xl:px-10 flex-col'>
         <Mission />
