@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className='hidden lg:flex lg:w-full'>
-      <div className='3xl:grow 3xl:px-96 3xl:text-3xl flex text-lg justify-between items-center w-[725px] h-7 mx-auto'>
+      <div className='3xl:grow 3xl:px-96 3xl:text-3xl flex text-lg justify-between items-center gap-5 mx-auto'>
         <a
           href="#mission"
           className={linksStyle}>

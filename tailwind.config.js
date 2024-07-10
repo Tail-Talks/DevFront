@@ -52,6 +52,15 @@ module.exports = {
 					80: "#000000CC"
         },
       },
+      container: {
+        padding: {
+          DEFAULT: "1rem",
+          sm: "1.5rem",
+          lg: "2.5rem",
+          xl: "6.5rem",
+          "2xl": "6rem",
+        },
+      },
     },
   },
   plugins: [
