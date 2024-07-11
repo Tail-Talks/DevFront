@@ -30,7 +30,7 @@ export default function Menu({ isOpen, closeModal }: MenuProps) {
       isOpen={isOpen}
       onRequestClose={closeModal}
       className="fixed mt-[120px] top-0 left-0 right-0 bottom-0 bg-white dark:bg-black-50 dark:bg-opacity-70 overflow-y-auto outline-none"
-      overlayClassName="fixed inset-0 bg-black-50 bg-opacity-75 z-30"
+      overlayClassName="fixed inset-0 bg-white dark:bg-black-50 bg-opacity-75 z-30"
     >
       <div className='menu pb-5'>
         <div className='container mx-auto flex flex-col gap-6'>
