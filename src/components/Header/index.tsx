@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from '../Navbar'
-import Menu from '../modals/Menu'
+import Menu from '../Menu/inxdex'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
