@@ -4,8 +4,8 @@ import { useTheme } from '../context/ThemeContext'
 // import sections
 import Preview from '../components/Main/Preview'
 import Mission from '../components/Main/Mission'
-import HowItWorksSection from '../components/Main/HowItWorksSection/HowItWorksSection'
-import CommunitySection from '../components/Main/CommunitySection/CommunitySection'
+import HowItWorks from '../components/Main/HowItWorks'
+import Community from '../components/Main/Community'
 import Counter from '../components/Main/Counter'
 import RoadMapSection from '../components/Main/RoadMapSection/RoadMapSection'
 import NFTSection from '../components/Main/NFTSection/NFTSection'
@@ -24,9 +24,9 @@ export default function Main() {
       <div className='container mx-auto px-4 3xl:px-10 flex-col'>
         <Mission />
       </div>
-      <HowItWorksSection theme={theme} />
+      <HowItWorks />
       <div className='container mx-auto px-4 3xl:px-10 flex-col'>
-        <CommunitySection />
+        <Community />
       </div>
       <Counter />
       <RoadMapSection theme={theme} />

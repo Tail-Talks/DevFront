@@ -5,7 +5,7 @@ import MissionCat1024 from '../../../assets/images/mission/cat1024.jpg'
 export default function Mission() {
   return (
     <section id='mission'>
-      <div className='container mx-auto px-4 3xl:px-10 flex-col'>
+      <div className='container mx-auto flex-col'>
         <div  className='flex justify-between w-full h-[355px] 3xl:h-[550px] mt-36 gap-x-4'>
           <div className='w-1/2 3xl:pr-96'>
             <h2 className='w-[380px] 3xl:w-auto h-16 font-sans text-[#000000] dark:text-white text-5xl 3xl:text-7xl font-medium'>Наша миссия</h2>
