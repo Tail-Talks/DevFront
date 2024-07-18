@@ -42,7 +42,7 @@ module.exports = {
 				'bread':
 					"linear-gradient(to bottom left, rgba(255, 174, 78, 1), rgba(255, 76, 140, 1))",
 				'counterDog':
-					"url('assets/counterDog.png')",
+					"url('assets/images/counter/counter-dog.png')",
 				'roadmap-stars':
 					"url('assets/png/backgrounds/roadmap-background-stars.png')"
       },
