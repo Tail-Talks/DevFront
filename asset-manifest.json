@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.48d36158.css",
-    "main.js": "/static/js/main.6f753855.js",
+    "main.css": "/static/css/main.27a531a7.css",
+    "main.js": "/static/js/main.95d5c45b.js",
     "static/media/goal-2.jpg": "/static/media/goal-2.6691961a9483d602253f.jpg",
     "static/media/goal-3.jpg": "/static/media/goal-3.bab9ea9ee5a4c871c529.jpg",
     "static/media/goal-4.jpg": "/static/media/goal-4.742dc63fec5e3d45aa35.jpg",
@@ -11,7 +11,7 @@
     "static/media/goal-5.jpg": "/static/media/goal-5.352a0289793c077c7b29.jpg",
     "static/media/goal-6.jpg": "/static/media/goal-6.4ed919820491fad6d0cf.jpg",
     "static/media/goal-8.jpg": "/static/media/goal-8.8bb5deb2e4822a62c4ea.jpg",
-    "static/media/counterDog.png": "/static/media/counterDog.f2156fb559caea206308.png",
+    "static/media/counter-dog.png": "/static/media/counter-dog.6d23219564a652fcb50d.png",
     "static/media/preregistrationPigs.jpg": "/static/media/preregistrationPigs.8c4ae53c2d42f5043653.jpg",
     "static/media/dog_with_toy_1440.jpg": "/static/media/dog_with_toy_1440.08fa989e45ddcd3046ef.jpg",
     "static/media/dog_with_toy_1024.jpg": "/static/media/dog_with_toy_1024.595967743f07d009b590.jpg",
@@ -61,6 +61,8 @@
     "static/media/roadmap-star-bread.svg": "/static/media/roadmap-star-bread.45ef5e2bde65aa519132111d98e20807.svg",
     "static/media/PRstarColor.svg": "/static/media/PRstarColor.b97ba80a59c9bc4808a23668d1352af1.svg",
     "static/media/roadmap-star-bread-sm.svg": "/static/media/roadmap-star-bread-sm.2697134d278c6ce7cba421fede4d38df.svg",
+    "static/media/infoBlack.svg": "/static/media/infoBlack.76498e6dd00af4b1de688bebbac0377b.svg",
+    "static/media/info.svg": "/static/media/info.0550e17aa10f788f35f213266a23e6f4.svg",
     "static/media/StarGray.svg": "/static/media/StarGray.7fc5086965775f684e82952fa08db728.svg",
     "static/media/PRstarU.svg": "/static/media/PRstarU.f07c9085085fb9421582025011db0f7c.svg",
     "static/media/roadmap-star-gray-md.svg": "/static/media/roadmap-star-gray-md.68c7608e2cd83982f0244ee1a59cbaf4.svg",
@@ -70,11 +72,11 @@
     "static/media/roadmap-star-white-sm.svg": "/static/media/roadmap-star-white-sm.c1fe151c6f37a659357bf2fcf2e28554.svg",
     "static/media/roadmap-star-gray-sm.svg": "/static/media/roadmap-star-gray-sm.ec765288261721e934794f21ef74de8b.svg",
     "static/media/PRstar.svg": "/static/media/PRstar.97506e79052bbd3273945bb94218ba07.svg",
-    "main.48d36158.css.map": "/static/css/main.48d36158.css.map",
-    "main.6f753855.js.map": "/static/js/main.6f753855.js.map"
+    "main.27a531a7.css.map": "/static/css/main.27a531a7.css.map",
+    "main.95d5c45b.js.map": "/static/js/main.95d5c45b.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d36158.css",
-    "static/js/main.6f753855.js"
+    "static/css/main.27a531a7.css",
+    "static/js/main.95d5c45b.js"
   ]
 }
