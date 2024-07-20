@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 interface GoalsNameProps {
 	name: string,
@@ -6,17 +6,15 @@ interface GoalsNameProps {
 	hideGoal: () => void,
 }
 
-const GoalsName: React.FC<GoalsNameProps> = ({name, showGoal, hideGoal}) => {
+export default function GoalsName({ name, showGoal, hideGoal }: GoalsNameProps) {
 	return (
-		<div 
-		className='mt-[20px]'>
+		<div
+			className='mt-[20px]'>
 			<span className='font-Rubic variable font-light dark:text-white text-black-80 text-2xl cursor-pointer hover:bg-clip-text hover:font-semibold hover:text-transparent hover:bg-bread dark:hover:bg-clip-text dark:hover:text-transparent dark:hover:bg-bread'
-			onMouseEnter={showGoal}
-    	onMouseLeave={hideGoal}>
+				onMouseEnter={showGoal}
+				onMouseLeave={hideGoal}>
 				{name}
 			</span>
 		</div>
-	);
-};
-
-export default GoalsName;
+	)
+}

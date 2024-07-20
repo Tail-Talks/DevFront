@@ -8,10 +8,11 @@ import Community from '../components/Main/Community'
 import Counter from '../components/Main/Counter'
 import RoadMap from '../components/Main/RoadMap'
 import NFT from '../components/Main/NFT'
-import GoalsSection from '../components/Main/GoalsSection/GoalsSection'
+import Goals from '../components/Main/Goals'
 import News from '../components/Main/News'
 import Feedback from '../components/Main/Feedback'
-import FAQSection from '../components/Main/FAQSection/FAQSection'
+import FAQ from '../components/Main/FAQ'
+import Epilogue from '../components/Main/Epilogue'
 import PreRegistration from '../components/Main/PreRegistration'
 
 export default function Main() {
@@ -26,9 +27,10 @@ export default function Main() {
       <RoadMap />
       <NFT />
       <News />
-      <GoalsSection />
+      <Goals />
       <Feedback />
-      <FAQSection />
+      <FAQ />
+      <Epilogue />
       <PreRegistration />
     </main>
   )
