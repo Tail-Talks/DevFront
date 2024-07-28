@@ -104,10 +104,10 @@ export default function HowItWorks() {
 				</div>
 				{/* Ползунок */}
 				<div className='relative mt-5'>
-					<div ref={trackRef} className='w-[700px] mx-auto h-1 bg-gray-300 rounded relative'>
+					<div ref={trackRef} className='w-[700px] mx-auto h-1 bg-[#4D4D4D] rounded relative'>
 						<div
 							ref={thumbRef}
-							className='h-2 bg-gray-800 rounded cursor-pointer w-[200px] absolute left-0 top-[-2px]'
+							className='h-2 bg-black-80 dark:bg-white rounded cursor-pointer w-[200px] absolute left-0 top-[-2px]'
 						></div>
 					</div>
 				</div>
