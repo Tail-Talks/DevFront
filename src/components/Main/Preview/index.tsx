@@ -15,16 +15,16 @@ export default function Preview() {
         <div className='flex justify-between items-center w-full'>
 
           <div className='flex flex-col justify-start w-1/2 mb-auto pt-[3rem]'>
-            <h1 className='w-full font-sans text-[#000000] dark:text-white text-6xl font-semibold 3xl:text-7xl'>Социальная сеть Tail Talks</h1>
-            <p className='font-Rubik text-[#000000] dark:text-[#F3F3F3] text-xl 3xl:text-3xl font-light mt-10'>Место, где каждый питомец заслуживает быть звездой</p>
-            <div className='flex gap-5 mt-10 xl:mt-[4rem] flex-col xl:flex-row'>
+            <h1 className='w-full font-sans text-[#000000] dark:text-white text-[40px] xl:text-6xl font-semibold 3xl:text-7xl'>Социальная сеть Tail Talks</h1>
+            <p className='font-Rubik text-[#000000] dark:text-[#F3F3F3] text-[18px] xl:text-xl 3xl:text-3xl font-light mt-8 xl:mt-10'>Место, где каждый питомец заслуживает быть звездой</p>
+            <div className='flex gap-5 mt-8 xl:mt-[4rem] flex-col xl:flex-row'>
               <ButtonBread
                 name='Узнать подробнее'
-                className='w-[310px]' />
+                className='w-[310px] lg:text-base lg:h-[50px] xl:text-lg xl:h-16' />
               <div className='p-[1px] rounded-2xl mr-auto bg-gradient-to-tr from-[#FF4C8C] to-[#FFAE4E]'>
                 <button
                   type='button'
-                  className='relative font-sans font-bold text-black-50 dark:text-white text-lg  h-16 rounded-2xl w-[310px] flex items-center justify-center bg-white dark:bg-black-50'>
+                  className='relative font-sans font-bold text-black-50 dark:text-white text-base xl:text-lg h-[50px] xl:h-16 rounded-2xl w-[310px] flex items-center justify-center bg-white dark:bg-black-50'>
                   Подключить кошелек
                   <img
                     className='ml-4'
