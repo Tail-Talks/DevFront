@@ -4,7 +4,7 @@ import defaultTheme from "tailwindcss/defaultTheme";
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-		screens: {
+    screens: {
       'xs': '375px',
       // => @media (min-width: 375px) { ... }
       'sm': '640px',
@@ -21,35 +21,40 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-			'3xl': '2560px',
-			'4xl': '3200px'
+      '3xl': '2560px',
+      '4xl': '3200px'
     },
     fontFamily: {
       sans: ["Comfortaa", ...defaultTheme.fontFamily.sans],
     },
     extend: {
-			backgroundImage: {
+      backgroundImage: {
         'step-1':
-					"linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step1pic.jpg')",
-				'step-2':
-					"linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step2pic.jpg')",
-				'step-3':
-					"linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step3pic.jpg')",
-				'step-4':
-					"linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step4pic.jpg')",
-				'step-5':
-					"linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step5pic.jpg')",
-				'bread':
-					"linear-gradient(to bottom left, rgba(255, 174, 78, 1), rgba(255, 76, 140, 1))",
-				'counterDog':
-					"url('assets/images/counter/counter-dog.png')",
-				'roadmap-stars':
-					"url('assets/png/backgrounds/roadmap-background-stars.png')"
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step1pic.jpg')",
+        'step-2':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step2pic.jpg')",
+        'step-3':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step3pic.jpg')",
+        'step-4':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step4pic.jpg')",
+        'step-5':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step5pic.jpg')",
+        'bread':
+          "linear-gradient(to bottom left, rgba(255, 174, 78, 1), rgba(255, 76, 140, 1))",
+        'counterDog':
+          "url('assets/images/counter/counter-dog.png')",
+        'counterDogLg':
+          "url('assets/images/counter/counter-dog-lg.png')",
+        'roadmap-stars':
+          "url('assets/png/backgrounds/roadmap-background-stars.png')"
+      },
+      backgroundPosition: {
+        'left-65': '-65px',
       },
       colors: {
         black: {
           50: "#191919",
-					80: "#000000CC"
+          80: "#000000CC"
         },
       },
       container: {

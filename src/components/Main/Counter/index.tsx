@@ -12,8 +12,8 @@ export default function Counter() {
 	return (
 		<section id='counter' className='w-full bg-[#F3F3F3] dark:bg-transparent'>
 			<div className='container mx-auto'>
-				<div className='bg-[#F3F3F3] bg-counterDog bg-contain bg-left bg-no-repeat mt-[100px] xl:mt-[140px] flex justify-end 3xl:justify-center rounded-3xl'>
-					<div className='w-[530px] xl:w-[670px] h-[500px] flex flex-col items-center mt-[70px] xl:mt-[134px] mb-[136px] mr-[90px] xl:mr-[110px]'>
+				<div className='bg-[#F3F3F3] bg-left-65 bg-counterDogLg xl:bg-counterDog bg-contain xl:bg-left bg-no-repeat mt-[100px] xl:mt-[140px] flex justify-end 3xl:justify-center rounded-3xl'>
+					<div className='w-[530px] xl:w-[670px] flex flex-col items-center mt-[70px] xl:mt-[134px] mb-[136px] mr-[90px] xl:mr-[110px]'>
 						<h3 className='font-sans text-[#000000] text-2xl xl:text-[34px] text-center leading-[36px] xl:leading-[50px] font-medium'>
 							Отсчет времени до запуска нашей социальной сети
 							<span className='bg-clip-text text-transparent bg-bread'> Tail Talks </span> начался!
@@ -39,7 +39,10 @@ export default function Counter() {
 								<span className='font-Rubik Variable font-light text-base'>секунды</span>
 							</div>
 						</div>
-						<ButtonBread name='Предварительная регистрация' onClick={openModal} />
+						<ButtonBread
+						name='Предварительная регистрация'
+						className='mt-10'
+						onClick={openModal} />
 					</div>
 				</div>
 			</div>

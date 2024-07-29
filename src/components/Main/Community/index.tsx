@@ -34,7 +34,9 @@ export default function Community() {
 								Подключайтесь к нашему Telegram-сообществу, чтобы вместе создавать лучшее место для общения любителей животных. Ваши идеи помогут нам расти и развиваться!
 							</p>
 							<a href="https://t.me/tailtalkstg" target='_blank'>
-								<ButtonBread name='Сообщество Telegram' />
+								<ButtonBread
+								name='Сообщество Telegram'
+								className='mt-10' />
 							</a>
 						</div>
 					</div>
