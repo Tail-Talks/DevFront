@@ -39,6 +39,7 @@ export default function Goals() {
 					<div className='w-1/2'>
 						{show && goalsBody.filter(goal => goal.id === show).map((g =>
 							<CardGoal key={g.id} pictureURL={g.url} text={g.text} />))}
+							{/* <CardGoal pictureURL={goalsPictures[goalsPictures.length - 3]} text={goalsBody[goalsBody.length - 3].text} /> */}
 					</div>
 				</div>
 			</div>
