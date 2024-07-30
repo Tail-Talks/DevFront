@@ -16,7 +16,7 @@ export default function CardNews({image, header, article, date}: CardNewsProps) 
           <h3 className='font-sans font-semibold text-[26px] dark:text-white text-black-80'>
             {header}
           </h3>
-          <p className='font-Rubic variable font-light text-xl mt-5 max-w-[750px] dark:text-white text-[#4D4D4D]'>
+          <p className='font-Rubic variable font-light text-lg xl:text-xl mt-5 max-w-[750px] dark:text-white text-[#4D4D4D]'>
             {article}
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function CardNews({image, header, article, date}: CardNewsProps) 
             {date}
           </p>
           <a href="https://t.me/tailtalksrus">
-            <button className='w-[210px] h-[60px] border-[1px] border-[#A0A0A0] rounded-xl font-sans text-black-80 dark:text-[#ECECEC] text-lg font-medium'>
+            <button className='w-[210px] h-[60px] border-[1px] border-[#A0A0A0] rounded-xl font-sans text-black-80 dark:text-[#ECECEC] text-base xl:text-lg font-medium'>
               Читать
             </button>
           </a>

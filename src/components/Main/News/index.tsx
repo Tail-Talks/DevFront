@@ -9,7 +9,7 @@ export default function News() {
 		<section id='news' className='mt-[140px] dark:bg-roadmap-stars'>
 			<div className='container mx-auto'>
 				<div className=''>
-					<h2 className='font-sans font-medium text-5xl dark:text-white text-black-80'>
+					<h2 className='font-sans font-medium text-3xl xl:text-5xl dark:text-white text-black-80'>
 						Наши новости
 					</h2>
 					<div className='mt-[30px]'>
