@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className='fixed z-40 w-full top-0 bg-white dark:bg-black-50'>
       <div className='container mx-auto'>
-        <div className='flex justify-between items-center pt-11 pb-6 lg:border-b-[1px]'>
+        <div className='flex justify-between items-center pt-6 pb-6 lg:border-b-[1px]'>
 
           {/* logo */}
           <div className='flex h-9 justify-between items-center'>

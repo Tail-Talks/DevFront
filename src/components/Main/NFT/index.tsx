@@ -7,8 +7,8 @@ export default function NFT() {
 	return (
 		<section className='mt-[140px]'>
 			<div className='container mx-auto'>
-				<div className='flex justify-between'>
-					<div className='w-[50%]'>
+				<div className='flex justify-between items-stretch'>
+					<div className='w-1/2 flex flex-col'>
 						<p className='font-Rubic variable font-semibold text-lg bg-clip-text text-transparent bg-bread'>NFT</p>
 						<div className='max-w-[525px]'>
 							<h2 className='font-sans font-medium text-[30px] xl:text-[34px] dark:text-white text-black-80'>
@@ -36,11 +36,19 @@ export default function NFT() {
 								Станьте частью растущего сообщества домашних животных и NFT
 							</p>
 						</div>
-						<a href="https://t.me/tailtalkstg" target='_blank'>
-							<ButtonBread name='Сообщество Telegram' />
-						</a>
+						<ButtonBread
+							name='Сообщество Telegram'
+							className='mt-10 w-full xl:w-[485px]'
+							onClick={() => window.open('https://t.me/tailtalkstg', '_blank')}
+						/>
 					</div>
-					<img src={NFTDog} alt="" className='w-[368px] h-[524px] xl:w-[485px] xl:h-[659px] rounded-xl' />
+					<div className='w-[40%] relative'>
+						<img
+							src={NFTDog}
+							alt="smartDog"
+							className='absolute inset-0 w-full h-full object-cover rounded-xl'
+						/>
+					</div>
 				</div>
 			</div>
 		</section>

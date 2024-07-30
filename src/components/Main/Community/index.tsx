@@ -8,7 +8,7 @@ import communityDog from '../../../assets/pictures/main/community-dog.jpg'
 
 export default function Community() {
 	return (
-		<section id='community' className='mt-[140px]'>
+		<section id='community' className='mt-[140px] scroll-mt-[6rem]'>
 			<div className='container mx-auto'>
 				<div className='flex justify-between text-center gap-x-12'>
 					<div className='2xl:grow flex flex-col justify-between w-1/2 min-w-[448px] xl:min-w-[590px] relative'>

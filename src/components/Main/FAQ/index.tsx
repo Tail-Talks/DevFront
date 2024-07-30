@@ -5,7 +5,7 @@ import FAQItem from './FAQItem'
 export default function FAQ() {
 
 	return (
-		<section id='faq' className='mt-[140px]'>
+		<section id='faq' className='mt-[140px] scroll-mt-[6rem]'>
 			<div className='container mx-auto'>
 				<h3 className='font-Rubic variable font-semibold text-lg bg-clip-text text-transparent bg-bread'>
 					ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ

@@ -50,7 +50,7 @@ export default function RoadMap() {
   return (
     <section
       id='roadmap'
-      className={theme ? 'mt-[140px] xl:bg-roadmap-stars relative' : 'mt-[140px] relative'}
+      className={theme ? 'mt-[140px] xl:bg-roadmap-stars relative scroll-mt-[6.5rem]' : 'mt-[140px] relative scroll-mt-[6rem]'}
     >
       <div className='container mx-auto'>
         <img
@@ -110,7 +110,7 @@ export default function RoadMap() {
           }
           ref={sliderRef}
         >
-          <div className='w-[1884px] h-[725px] mt-[50px] mx-auto relative pl-7'>
+          <div className='w-[1884px] h-[700px] mt-[50px] mx-auto relative pl-7'>
             <img
               className='absolute left-[0px] bottom-[75px]'
               src={theme ? roadmapPawDark : roadmapPawLight}
@@ -137,7 +137,7 @@ export default function RoadMap() {
           </div>
         </div>
         {/* Ползунок */}
-        <div className='relative mt-10 select-none'>
+        <div className='relative select-none'>
           <div ref={trackRef} className='w-[700px] mx-auto h-1 bg-gray-300 rounded relative'>
             <div
               ref={thumbRef}

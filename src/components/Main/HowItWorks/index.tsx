@@ -32,7 +32,7 @@ export default function HowItWorks() {
   }, [])
 
   return (
-    <div id='how_it_works' className='w-full mt-36 select-none'>
+    <section id='how_it_works' className='w-full mt-36 select-none scroll-mt-[6rem]'>
       <div className='container mx-auto flex-col'>
         <h2 className='font-sans text-black dark:text-white text-5xl font-medium mb-8'>
           Как работает Tail Talks?
@@ -57,6 +57,6 @@ export default function HowItWorks() {
         </div>
         {/* Конец ползунка */}
       </div>
-    </div>
+    </section>
   )
 }

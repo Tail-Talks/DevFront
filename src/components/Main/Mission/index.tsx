@@ -3,7 +3,7 @@ import MissionCat1440 from '../../../assets/images/mission/cat1440.jpg'
 
 export default function Mission() {
   return (
-    <section id='mission' className='mt-36'>
+    <section id='mission' className='mt-36 scroll-mt-[6rem]'>
       <div className='container mx-auto'>
         <div className='flex justify-between gap-5'>
           <div className='w-1/2 xl:pr-[4.5rem]'>
