@@ -61,7 +61,7 @@ export default function Feedback() {
   return (
     <section id='feedback'>
       <div className='container mx-auto'>
-        <div className='flex flex-col bg-white dark:bg-transparent sm:dark:bg-[#F3F3F3] sm:shadow-[0_0_20px_rgba(114,114,114,0.1)] rounded-[15px] max-w-[1040px] w-full p-[10px_20px] sm:p-[50px_75px] mt-[70px] sm:mt-[140px]'>
+        <div className='flex mx-auto flex-col bg-white dark:bg-transparent sm:dark:bg-[#F3F3F3] sm:shadow-[0_0_20px_rgba(114,114,114,0.1)] rounded-[15px] max-w-[1040px] w-full p-[10px_20px] sm:p-[50px_75px] mt-[70px] sm:mt-[140px]'>
           <h3 className='font-sans dark:text-white sm:dark:text-black-80 sm:text-black-80 font-medium text-[30px] sm:text-[34px] sm:text-left text-center'>
             Свяжитесь с нами
           </h3>
