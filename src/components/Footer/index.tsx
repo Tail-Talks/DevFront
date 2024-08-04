@@ -16,12 +16,12 @@ export default function Footer() {
           {/* 1024px and less */}
           <div className='block xl:hidden'>
             <div className='flex border-b-[1px]  border-white/20 pb-[20px] sm:pb-0 sm:border-none'>
-            <h4 className='font-sans font-bold text-3xl text-gradient xs:mx-auto sm:m-0'>Tail Talks</h4>
+            <h4 className='font-sans font-bold text-3xl text-gradient sm:m-0'>Tail Talks</h4>
             </div>
 
             <div className='flex flex-col mt-[20px] sm:mt-[45px]'>
 
-              <div className='flex flex-col gap-14 xs:mx-auto sm:hidden'>
+              <div className='flex flex-col gap-14 sm:hidden'>
                 <div className='flex flex-col gap-6'>
                   <a
                     href="#mission"
@@ -148,7 +148,7 @@ export default function Footer() {
               <div className='flex xs:justify-center sm:justify-start items-end'>
                 <ButtonBread
                   onClick={() => window.open('https://t.me/tailtalks_official', '_blank')} name='Сообщество Telegram'
-                  className='w-[21.563rem] h-[3rem] text-base lg:w-[18.938rem] lg:h-[2.813rem] mt-0' />
+                  className='w-[21.563rem] h-[3rem] text-base lg:w-[18.938rem] lg:h-[2.813rem] mt-10 md:mt-0' />
               </div>
             </div>
           </div>

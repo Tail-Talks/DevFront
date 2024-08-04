@@ -7,7 +7,7 @@ interface CardGoalProps {
 
 export default function CardGoal({ pictureURL, text }: CardGoalProps) {
   return (
-    <div className='flex flex-col m-auto w-[453px]'>
+    <div className='flex flex-col m-auto w-[345px] sm:w-[453px]'>
       <p className='w-fullfont-Rubic variable text-lg lg:leading-6 dark:text-white text-[#4D4D4D] text-justify mb-2'>
         {text}
       </p>

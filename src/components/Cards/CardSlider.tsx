@@ -8,7 +8,7 @@ interface CardSliderProps {
 
 export default function CardSlider({ bg, title, text }: CardSliderProps) {
   return (
-    <div className={`min-w-[384px] w-96 h-[437px] ${bg} bg-center bg-cover flex flex-col justify-end overflow-hidden`}>
+    <div className={`min-w-[345px] sm:min-w-[312px] lg:min-w-[384px] w-96 h-[393px] lg:h-[437px] ${bg} bg-center bg-cover flex flex-col justify-end overflow-hidden`}>
       <div className='p-10'>
         <h3 className='font-sans font-bold text-white text-[26px]'>
           {title}

@@ -19,7 +19,7 @@ export default function FAQItem({ question, answer }: FAQItemProps) {
 
   return (
     <div>
-      <div className='bg-bread rounded-2xl p-1 h-[84px] mt-[30px]'>
+      <div className='bg-bread rounded-2xl p-1 h-full sm:h-[84px] mt-[30px]'>
         <div
           onClick={() => setIsAnswerShown(!isAnswerShown)}
           className='w-full h-full bg-clip-border rounded-xl px-[35px] bg-white dark:bg-[#000000] flex justify-between items-center cursor-pointer'
@@ -38,7 +38,7 @@ export default function FAQItem({ question, answer }: FAQItemProps) {
       <div ref={answerEl} className={`overflow-hidden transition-all duration-700`} style={{ height: '0px' }}>
         <div className='variable px-[35px] mt-[30px]'>
           {answer.map((data, index) => (
-            <p key={index} className='my-5 text-xl font-light dark:text-white font-Rubic'>
+            <p key={index} className='my-2 lg:my-5 text-base lg:text-xl font-light dark:text-white font-Rubic'>
               {data}
             </p>
           ))}

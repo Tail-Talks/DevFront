@@ -34,7 +34,7 @@ export default function HowItWorks() {
   return (
     <section id='how_it_works' className='w-full mt-36 select-none scroll-mt-[6rem]'>
       <div className='container mx-auto flex-col'>
-        <h2 className='font-sans text-black dark:text-white text-5xl font-medium mb-8'>
+        <h2 className='font-sans text-black dark:text-white text-3xl lg:text-5xl font-medium mb-8'>
           Как работает Tail Talks?
         </h2>
         <div className='relative overflow-hidden rounded-[2rem]'>
@@ -48,10 +48,10 @@ export default function HowItWorks() {
         </div>
         {/* Ползунок */}
         <div className='relative mt-5'>
-          <div ref={trackRef} className='w-[700px] mx-auto h-1 bg-[#4D4D4D] rounded relative'>
+          <div ref={trackRef} className='w-[320px] md:w-[550px] lg:w-[700px] mx-auto h-1 bg-[#4D4D4D] rounded relative'>
             <div
               ref={thumbRef}
-              className='h-2 bg-black-80 dark:bg-white rounded cursor-pointer w-[200px] absolute left-0 top-[-2px]'
+              className='h-2 bg-black-80 dark:bg-white rounded cursor-pointer w-[100px] md:w-[200px] absolute left-0 top-[-2px]'
             ></div>
           </div>
         </div>

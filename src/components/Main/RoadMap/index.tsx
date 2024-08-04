@@ -50,55 +50,55 @@ export default function RoadMap() {
   return (
     <section
       id='roadmap'
-      className={theme ? 'mt-[140px] xl:bg-roadmap-stars relative scroll-mt-[6.5rem]' : 'mt-[140px] relative scroll-mt-[6rem]'}
+      className={theme ? 'mt-[140px] bg-roadmap-stars relative scroll-mt-[6.5rem]' : 'mt-[140px] relative scroll-mt-[6rem]'}
     >
       <div className='container mx-auto'>
         <img
-          className='absolute left-[100px] top-[-15px]'
+          className='hidden sm:block absolute left-[100px] top-[-15px]'
           src={theme ? roadmapStarGraySm : roadmapStarBreadSm}
           alt='art'
         />
-        <img className='absolute left-[150px] top-[0px]' src={roadmapStarBread} alt='' />
+        <img className='hidden sm:block absolute left-[80px] lg:left-[150px] top-[100px] lg:top-[0px]' src={roadmapStarBread} alt='' />
         {theme && (
           <img
-            className='absolute left-[870px] xl:left-[1100px] top-[-20px]'
+            className='hidden sm:block absolute right-[40px] lg:left-[870px] xl:left-[1100px] top-[-20px]'
             src={roadmapStarWhiteSm}
             alt='art'
           />
         )}
         {theme && (
           <img
-            className='absolute left-[1015px] xl:left-[1265px] top-[55px]'
+            className='hidden sm:block absolute right-[0px] lg:left-[950px] xl:left-[1265px] top-[55px]'
             src={roadmapStarGrayMd}
             alt='art'
           />
         )}
         {!theme && (
           <img
-            className='absolute left-[905px] xl:left-[1050px] top-[-40px] w-[78px] h-[78px]'
+            className='hidden sm:block absolute right-[50px] xl:left-[1050px] top-[-40px] w-[78px] h-[78px]'
             src={roadmapSunFull}
             alt='art'
           />
         )}
         {!theme && (
           <img
-            className='absolute left-[1035px] xl:left-[1200px] top-[30px] w-[95px] h-[95px]'
+            className='absolute hidden lg:block right-0 xl:left-[1200px] top-[30px] w-[95px] h-[95px]'
             src={roadmapSunFull}
             alt='art'
           />
         )}
         {!theme && (
           <img
-            className='absolute left-[1000px] xl:left-[1170px] top-[-80px] w-[90px] h-[90px]'
+            className='hidden sm:block absolute right-[200px] xl:left-[1170px] top-[-80px] w-[90px] h-[90px]'
             src={roadmapSunThin}
             alt='art'
           />
         )}
         <div className='container mx-auto px-4'>
-          <h3 className='font-sans font-medium dark:text-white text-[34px] text-center'>
+          <h3 className='font-sans font-medium dark:text-white text-2xl lg:text-[34px] text-center'>
             Дорожная карта Tail Talks 2024!
           </h3>
-          <p className='font-Rubik Variable font-light text-center dark:text-[#F3F3F3] text-[20px] mt-[30px]'>
+          <p className='font-Rubik Variable font-light text-center dark:text-[#F3F3F3] text-lg lg:text-[20px] mt-[30px]'>
             Отслеживайте развитие нашей социальной сети для животных
           </p>
         </div>
@@ -110,14 +110,14 @@ export default function RoadMap() {
           }
           ref={sliderRef}
         >
-          <div className='w-[1884px] h-[700px] mt-[50px] mx-auto relative pl-7'>
+          <div className='w-full sm:w-[1884px] h-[700px] mt-[50px] mx-auto relative sm:pl-7'>
             <img
-              className='absolute left-[0px] bottom-[75px]'
+              className='absolute left-[0px] bottom-[29px] sm:bottom-[110px] lg:bottom-[75px]'
               src={theme ? roadmapPawDark : roadmapPawLight}
               alt='art'
             />
             <img
-              className='absolute left-[720px] bottom-[510px] z-10'
+              className='absolute left-[620px] sm:left-[720px] bottom-[510px] z-10'
               src={theme ? roadmapEllipsesDark : roadmapEllipsesLight}
               alt='art'
             />
@@ -137,11 +137,11 @@ export default function RoadMap() {
           </div>
         </div>
         {/* Ползунок */}
-        <div className='relative select-none'>
-          <div ref={trackRef} className='w-[700px] mx-auto h-1 bg-gray-300 rounded relative'>
+        <div className='relative select-none mt-4 sm:mt-0'>
+          <div ref={trackRef} className='w-[320px] md:w-[550px] lg:w-[700px] mx-auto h-1 bg-gray-300 rounded relative'>
             <div
               ref={thumbRef}
-              className='h-2 bg-bread rounded cursor-pointer w-[200px] absolute left-0 top-[-2px]'
+              className='h-2 bg-bread rounded cursor-pointer w-[100px] md:w-[200px] absolute left-0 top-[-2px]'
             ></div>
           </div>
         </div>

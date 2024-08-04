@@ -22,7 +22,7 @@ export default function SvgSmallFeedback(): JSX.Element {
   }, [])
 
   return (
-    <div className='lg:hidden flex flex-col justify-center items-center mt-4 relative'>
+    <div className='flex sm:hidden md:flex lg:hidden flex-col justify-center items-center mt-4 relative'>
       <div className={`relative w-full flex justify-center items-center ${isExtraSmallScreen ? 'pb-[120%]' : 'pb-[100%]'} md:pb-[80%]`}>
         <svg className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isSmallScreen ? 'stroke-black-80 dark:stroke-white' : 'stroke-black-80 dark:stroke-black-80'}`} width="330" height="71" viewBox="0 0 330 71" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M329.014 35.6114C329.014 37.8316 327.947 40.0493 325.81 42.2477C323.67 44.4479 320.489 46.5944 316.349 48.6543C308.071 52.7734 296.059 56.4969 281.175 59.6292C251.415 65.8921 210.278 69.7697 164.824 69.7697C119.37 69.7697 78.2342 65.8921 48.4742 59.6292C33.5901 56.4969 21.5783 52.7734 13.2996 48.6543C9.15939 46.5944 5.97856 44.4479 3.83915 42.2477C1.70153 40.0493 0.634766 37.8316 0.634766 35.6114C0.634766 33.3913 1.70153 31.1735 3.83915 28.9751C5.97856 26.7749 9.15939 24.6285 13.2996 22.5685C21.5783 18.4494 33.5901 14.7259 48.4742 11.5936C78.2342 5.33071 119.37 1.45312 164.824 1.45312C210.278 1.45312 251.415 5.33071 281.175 11.5936C296.059 14.7259 308.071 18.4494 316.349 22.5685C320.489 24.6285 323.67 26.7749 325.81 28.9751C327.947 31.1735 329.014 33.3913 329.014 35.6114Z" />

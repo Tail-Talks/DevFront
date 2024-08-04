@@ -21,7 +21,7 @@ export default function PreRegistration() {
 	const closeModal = () => setIsModalOpen(false)
 
 	return (
-		<section id='preRegistration' className='mt-[100px] lg:mt-[140px] h-[627px] dark:lg:bg-roadmap-stars'>
+		<section id='preRegistration' className='mt-[350px] sm:mt-[100px] lg:mt-[140px] h-[627px] dark:lg:bg-roadmap-stars'>
 			<div className="container relative mx-auto h-full flex items-center justify-center">
 				<div className='flex flex-col justify-center items-center text-center max-w-[1085px]'>
 					<h2 className='font-sans px-8 xl:py-0 font-medium text-[24px] xl:text-[34px] dark:text-white text-black-80'>
@@ -32,7 +32,7 @@ export default function PreRegistration() {
 					</p>
 					<ButtonBread
 						type='button'
-						className='mt-10 w-[463px] h-[70px]'
+						className='mt-10 w-[345px] h-[49px] lg:w-[463px] lg:h-[70px]'
 						name='Предварительная регистрация'
 						onClick={openModal} />
 				</div>
