@@ -63,5 +63,5 @@ jobs:
         run: |
           git add .
           COMMIT="${{ env.COMMIT_HASH }}.${{ env.COMMIT_DATE }}"
-          git commit -m "Deploy build $COMMIT to test"
+          git commit -m "Deploy build $COMMIT to testt"
           git push origin test 
