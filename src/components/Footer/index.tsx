@@ -122,23 +122,23 @@ export default function Footer() {
                   <a href="" className='text-sm font-Rubik dark:text-white'>Благотворительность</a>
                 </div>
                 <div className='flex flex-col gap-6'>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vk} alt="Vk" />
-                    <p className='text-sm font-Rubik dark:text-white'>Вконтакте</p>
+                    <p className='text-sm font-Rubik dark:text-white'>VK</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={medium} alt="Medium" />
-                    <p className='text-sm font-Rubik dark:text-white'>Medium</p>
+                    <p className='text-sm font-Rubik dark:text-white'>ТЖ</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
-                    <img src={dzen} alt="Yandex Zen" />
-                    <p className='text-sm font-Rubik dark:text-white'>Yandex Zen</p>
+                  <a href="https://dzen.ru/tailtalksblog" target="_blank" className='flex gap-2.5 items-center'>
+                    <img src={dzen} alt="Yandex Dzen" />
+                    <p className='text-sm font-Rubik dark:text-white'>Yandex Dzen</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vcru} alt="VC.ru" />
                     <p className='text-sm font-Rubik dark:text-white'>VC.ru</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={telegram} alt="Telegram" />
                     <p className='text-sm font-Rubik dark:text-white'>Telegram</p>
                   </a>
@@ -147,7 +147,7 @@ export default function Footer() {
               {/* 1024px to 640px end */}
               <div className='flex xs:justify-center sm:justify-start items-end'>
                 <ButtonBread
-                  onClick={() => window.open('https://t.me/tailtalks_official', '_blank')} name='Сообщество Telegram'
+                  onClick={() => window.open('https://t.me/tailtalksrus', '_blank')} name='Сообщество Telegram'
                   className='w-[21.563rem] h-[3rem] text-base lg:w-[18.938rem] lg:h-[2.813rem] mt-10 md:mt-0' />
               </div>
             </div>
@@ -165,19 +165,19 @@ export default function Footer() {
               <a href="#faq" className='font-Rubik text-black-80 dark:text-white font-medium'>FAQ</a>
             </div>
             <div className='flex gap-6'>
-              <a href="">
+              <a href="https://vk.com/club226488112" target="_blank">
                 <img src={vk} alt="Vk" />
               </a>
-              <a href="">
+              <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank">
                 <img src={medium} alt="Medium" />
               </a>
-              <a href="">
-                <img src={dzen} alt="Yandex Zen" />
+              <a href="https://dzen.ru/tailtalksblog" target="_blank">
+                <img src={dzen} alt="Yandex Dzen" />
               </a>
-              <a href="">
+              <a href="https://vc.ru/u/3474601-tail-talks" target="_blank">
                 <img src={vcru} alt="VC.ru" />
               </a>
-              <a href="">
+              <a href="https://t.me/tailtalkstg/1" target="_blank">
                 <img src={telegram} alt="Telegram" />
               </a>
             </div>
@@ -194,7 +194,7 @@ export default function Footer() {
             </div>
             <div className='flex items-end'>
               <ButtonBread
-                onClick={() => window.open('https://t.me/tailtalks_official', '_blank')} name='Сообщество Telegram'
+                onClick={() => window.open('https://t.me/tailtalksrus', '_blank')} name='Сообщество Telegram'
                 className='w-[21.563rem] h-[3rem] text-base lg:w-[18.938rem] lg:h-[2.813rem]' />
             </div>
           </div>

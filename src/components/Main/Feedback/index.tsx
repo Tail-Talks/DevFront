@@ -88,7 +88,7 @@ export default function Feedback() {
                   className='border dark:border-white sm:dark:border-black-80 border-black-80 px-[1.563rem] py-[1.094rem] rounded-xl mt-[1.094rem] sm:mt-[0.625rem] dark:bg-transparent sm:dark:bg-[#F3F3F3] dark:text-white  sm:dark:text-black-80'
                   value={email}
                   onChange={handleEmailChange} />
-                <label htmlFor='comment' className='mt-[1.563rem] font-Rubic hidden sm:block'>Коментарий</label>
+                <label htmlFor='comment' className='mt-[1.563rem] font-Rubic hidden sm:block'>Комментарий</label>
                 <textarea
                   id='comment'
                   name='comment'
