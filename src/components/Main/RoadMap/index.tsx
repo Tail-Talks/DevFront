@@ -112,7 +112,7 @@ export default function RoadMap() {
         >
           <div className='w-full sm:w-[1884px] h-[700px] mt-[50px] mx-auto relative sm:pl-7'>
             <img
-              className='absolute left-[0px] bottom-[29px] sm:bottom-[110px] lg:bottom-[75px]'
+              className='absolute left-[0px] bottom-[59px] sm:bottom-[110px] lg:bottom-[75px]'
               src={theme ? roadmapPawDark : roadmapPawLight}
               alt='art'
             />
@@ -129,7 +129,7 @@ export default function RoadMap() {
               <div className='absolute left-[100%] top-0 w-[26px] h-[26px] rounded-full dark:bg-white bg-[#A0A0A0] translate-x-[-50%] translate-y-[-50%]'></div>
             </div>
             {/* end progress line */}
-            <div className='flex items-start h-[609px]'>
+            <div className='flex items-start sm:h-[609px]'>
               {roadmapData.map((data, index) => (
                 <RoadmapCard key={index} quarter={data.quarter} tasks={data.tasks} />
               ))}

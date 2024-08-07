@@ -18,7 +18,7 @@ import PreRegistration from '../components/Main/PreRegistration'
 export default function Main() {
 
   return (
-    <main className='mt-[200px]'>
+    <main className='mt-[50px] lg:mt-[200px]'>
       <Preview />
       <Mission />
       <HowItWorks />
