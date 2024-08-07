@@ -24,10 +24,11 @@ export default function Preview() {
             </img>
           </div>
             <div className='flex gap-5 mt-5 lg:mt-8 xl:mt-[4rem] flex-col xl:flex-row'>
-              <ButtonBread
+              <a href="#how_it_works">
+                <ButtonBread
                 name='Узнать подробнее'
-                className='w-[310px] lg:text-base h-[47px] lg:h-[50px] xl:text-lg xl:h-16'
-              />
+                className='w-[310px] lg:text-base h-[47px] lg:h-[50px] xl:text-lg xl:h-16'/>
+              </a>
               <div className='p-[1px] rounded-2xl mr-auto bg-gradient-to-tr from-[#FF4C8C] to-[#FFAE4E]'>
                 <button
                   type='button'
