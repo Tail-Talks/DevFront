@@ -77,6 +77,14 @@ npm test
 npm run build
 ```
 
+## Сборка для gh-Pages
+
+Для сборки проекта для gh-Pages нужно скорректировать пути, для этого используйте следующую команду:
+
+```bash
+npm run predeploy
+```
+
 Эта команда создаст оптимизированную сборку в директории `build/`.
 
 ## Внесение изменений
@@ -86,7 +94,7 @@ npm run build
 1. Форкните репозиторий.
 2. Создайте новую ветку (`git checkout -b feature-branch`).
 3. Внесите свои изменения.
-4. Зафиксируйте изменения (`git commit -m 'Add some feature'`).
+4. Зафиксируйте изменения (`git commit -m 'Add some feature'`). PS. Желательно использовать пояснения (`feat, fix, chore, init, docs, refactor, style, test, perf, build`)
 5. Отправьте изменения в удаленный репозиторий (`git push origin feature-branch`).
 6. Создайте pull request.
 
