@@ -51,23 +51,23 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col gap-6'>
                   <h5 className='font-Rubik text-black-80 dark:text-white font-medium'>Социальные сети</h5>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vk} alt="Vk" />
                     <p className='text-sm font-Rubik dark:text-white'>Вконтакте</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={medium} alt="Medium" />
-                    <p className='text-sm font-Rubik dark:text-white'>Medium</p>
+                    <p className='text-sm font-Rubik dark:text-white'>ТЖ</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
-                    <img src={dzen} alt="Yandex Zen" />
-                    <p className='text-sm font-Rubik dark:text-white'>Yandex Zen</p>
+                  <a href="https://dzen.ru/tailtalksblog" target="_blank" className='flex gap-2.5 items-center'>
+                    <img src={dzen} alt="Yandex Dzen" />
+                    <p className='text-sm font-Rubik dark:text-white'>Yandex Dzen</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vcru} alt="VC.ru" />
                     <p className='text-sm font-Rubik dark:text-white'>VC.ru</p>
                   </a>
-                  <a href="" className='flex gap-2.5 items-center'>
+                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={telegram} alt="Telegram" />
                     <p className='text-sm font-Rubik dark:text-white'>Telegram</p>
                   </a>
