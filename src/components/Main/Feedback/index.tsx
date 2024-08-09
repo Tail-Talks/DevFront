@@ -93,7 +93,7 @@ export default function Feedback() {
                   id='comment'
                   name='comment'
                   rows={2}
-                  placeholder={isSmallScreen ? 'Коментарий' : ''}
+                  placeholder={isSmallScreen ? 'Комментарий' : ''}
                   className='border dark:border-white sm:dark:border-black-80 border-black-80 px-[1.563rem] py-[1.094rem] rounded-xl mt-[1.094rem] sm:mt-[0.625rem] dark:bg-transparent sm:dark:bg-[#F3F3F3] dark:text-white  sm:dark:text-black-80'
                   value={comment}
                   onChange={handleCommentChange}
