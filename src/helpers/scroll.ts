@@ -27,7 +27,7 @@ export const handleThumbDrag = (
   thumb.style.left = `${newLeft}px`
   const newScrollLeft = (newLeft / maxThumbLeft) * maxScrollLeft
   slider.scrollLeft = newScrollLeft
-};
+}
 
 export const handleMouseDown = (
   e: MouseEvent,

@@ -44,6 +44,11 @@ export default function HowItWorks() {
             <CardSlider bg={'bg-step-3'} title={'Шаг 3'} text={'Алгоритмы ИИ позволят легко преобразить фотографию питомца'} />
             <CardSlider bg={'bg-step-4'} title={'Шаг 4'} text={'Алгоритмы ИИ продвинут фото вашего питомца'} />
             <CardSlider bg={'bg-step-5'} title={'Шаг 5'} text={'Участвуй в фотоконкурсах и забирай награды'} />
+            <CardSlider bg={'bg-step-6'} title={'Шаг 6'} text={'Сделай NFT своего питомца'} />
+            <CardSlider bg={'bg-step-7'} title={'Шаг 7'} text={'Приглашай на прогулки друзей и  пользователей социальной сети!'} />
+            <CardSlider bg={'bg-step-8'} title={'Шаг 8'} text={'Участвуй в благотворительных акциях в пользу животных'} />
+            <CardSlider bg={'bg-step-9'} title={'Шаг 9'} text={'Приглашай друзей и получай дополнительные возможности'} />
+            <CardSlider bg={'bg-step-10'} title={'Шаг 10'} text={'Будь в курсе акций наших партнеров'} />
           </div>
         </div>
         {/* Ползунок */}
