@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5d1f6bf5.css",
-    "main.js": "./static/js/main.ea51680b.js",
+    "main.css": "./static/css/main.335631d3.css",
+    "main.js": "./static/js/main.71ee2592.js",
     "static/media/goal-2.jpg": "./static/media/goal-2.6691961a9483d602253f.jpg",
     "static/media/goal-3.jpg": "./static/media/goal-3.bab9ea9ee5a4c871c529.jpg",
     "static/media/goal-4.jpg": "./static/media/goal-4.742dc63fec5e3d45aa35.jpg",
@@ -20,10 +20,15 @@
     "static/media/cat1440.jpg": "./static/media/cat1440.3274e4f4c80955456de9.jpg",
     "static/media/community-dog.jpg": "./static/media/community-dog.7adc7ee215e37b54c7ed.jpg",
     "static/media/community-cat.jpg": "./static/media/community-cat.274570cbcf77a0c6bdff.jpg",
+    "static/media/step6pic.jpeg": "./static/media/step6pic.967afb2e035d37d4091f.jpeg",
     "static/media/step5pic.jpg": "./static/media/step5pic.5a3a404a71281c42a22a.jpg",
+    "static/media/step9pic.jpeg": "./static/media/step9pic.a4fda1d535e33f02ef7c.jpeg",
     "static/media/vcru.svg": "./static/media/vcru.13dab59bb4576931d190892c4395c377.svg",
     "static/media/step4pic.jpg": "./static/media/step4pic.29a5cbe54577b4d00e17.jpg",
+    "static/media/step8pic.jpeg": "./static/media/step8pic.080c883a37d32d5d870f.jpeg",
     "static/media/step2pic.jpg": "./static/media/step2pic.6388ba77458a1cf92fe7.jpg",
+    "static/media/step7pic.jpeg": "./static/media/step7pic.f215b25387287fa53cf5.jpeg",
+    "static/media/step10pic.jpeg": "./static/media/step10pic.c1292dbf0302fe5d48e0.jpeg",
     "static/media/news-img-2.jpg": "./static/media/news-img-2.2c952e42838554869365.jpg",
     "static/media/step1pic.jpg": "./static/media/step1pic.f1b8408dbfb84cae2f14.jpg",
     "static/media/news-img-1.jpg": "./static/media/news-img-1.cfc17b44505302758397.jpg",
@@ -72,11 +77,11 @@
     "static/media/roadmap-star-white-sm.svg": "./static/media/roadmap-star-white-sm.c1fe151c6f37a659357bf2fcf2e28554.svg",
     "static/media/roadmap-star-gray-sm.svg": "./static/media/roadmap-star-gray-sm.ec765288261721e934794f21ef74de8b.svg",
     "static/media/PRstar.svg": "./static/media/PRstar.97506e79052bbd3273945bb94218ba07.svg",
-    "main.5d1f6bf5.css.map": "./static/css/main.5d1f6bf5.css.map",
-    "main.ea51680b.js.map": "./static/js/main.ea51680b.js.map"
+    "main.335631d3.css.map": "./static/css/main.335631d3.css.map",
+    "main.71ee2592.js.map": "./static/js/main.71ee2592.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d1f6bf5.css",
-    "static/js/main.ea51680b.js"
+    "static/css/main.335631d3.css",
+    "static/js/main.71ee2592.js"
   ]
 }
