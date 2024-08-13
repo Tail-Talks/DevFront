@@ -30,15 +30,25 @@ module.exports = {
     extend: {
       backgroundImage: {
         'step-1':
-          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step1pic.jpg')",
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step1pic.jpg')",
         'step-2':
-          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step2pic.jpg')",
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step2pic.jpg')",
         'step-3':
-          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step3pic.jpg')",
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step3pic.jpg')",
         'step-4':
-          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step4pic.jpg')",
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step4pic.jpg')",
         'step-5':
-          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/pictures/main/step5pic.jpg')",
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step5pic.jpg')",
+        'step-6':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step6pic.jpeg')",
+        'step-7':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step7pic.jpeg')",
+        'step-8':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step8pic.jpeg')",
+        'step-9':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step9pic.jpeg')",
+        'step-10':
+          "linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1)), url('assets/images/howitworks/step10pic.jpeg')",
         'bread':
           "linear-gradient(to bottom left, rgba(255, 174, 78, 1), rgba(255, 76, 140, 1))",
         'counterDog':
