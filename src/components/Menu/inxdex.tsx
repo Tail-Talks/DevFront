@@ -4,7 +4,7 @@ import ButtonBread from '../UI/ButtonBread'
 
 //SVG
 import vk from '../../assets/svg/footer/vk.svg'
-import medium from '../../assets/svg/footer/medium.svg'
+import tf from '../../assets/svg/footer/tf.svg'
 import dzen from '../../assets/svg/footer/dzen.svg'
 import vcru from '../../assets/svg/footer/vcru.svg'
 import telegram from '../../assets/svg/footer/telegram.svg'
@@ -68,8 +68,8 @@ export default function Menu({ isOpen, closeModal }: MenuProps) {
               <p className='text-sm font-Rubik dark:text-white'>Вконтакте</p>
             </a>
             <a href="" className='flex gap-2.5 items-center'>
-              <img src={medium} alt="Medium" />
-              <p className='text-sm font-Rubik dark:text-white'>Medium</p>
+              <img src={tf} alt="tf" />
+              <p className='text-sm font-Rubik dark:text-white'>ТЖ</p>
             </a>
             <a href="" className='flex gap-2.5 items-center'>
               <img src={dzen} alt="Yandex Zen" />
