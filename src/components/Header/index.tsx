@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import Navbar from '../Navbar'
 import Menu from '../Menu/inxdex'
+import { useTheme } from '../../context/ThemeContext'
+
+import logo from '../../assets/svg/logo/logo.svg'
+import logoDark from '../../assets/svg/logo/logoDark.svg'
+
 
 export default function Header() {
+  const { theme } = useTheme()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
@@ -12,10 +18,11 @@ export default function Header() {
         <div className='flex justify-between items-center pt-6 pb-6 lg:border-b-[1px]'>
 
           {/* logo */}
-          <div className='flex h-9 justify-between items-center'>
-            <div className='w-9 h-9 pr-5 mr-5 bg-[#000000] dark:bg-white rounded-full bg'></div>
-            <div className='w-32 3xl:w-44 h-6 font-sans text-[#000000] dark:text-white 3xl:grow 3xl:text-4xl text-2xl font-bold'>Tail Talks</div>
-          </div>
+          <a href='#preview' className='flex items-center justify-between h-9'>
+            {theme ? <img src={logoDark} alt="logo" /> : <img src={logo} alt="logo" />}
+
+            <h2 className='pl-4 pr-5 font-sans text-[#000000] dark:text-white 3xl:grow 3xl:text-4xl text-2xl font-bold whitespace-nowrap'>Tail Talks</h2>
+          </a>
           {/* end logo */}
 
           <Navbar /> {/* navbar при меньше 1024 невидим */}

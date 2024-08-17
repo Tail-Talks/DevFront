@@ -10,7 +10,7 @@ export default function Preview() {
   const { theme } = useTheme()
 
   return (
-    <section className='preview'>
+    <section id='preview' className='preview scroll-mt-[6rem]'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center w-full'>
 
