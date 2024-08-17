@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.335631d3.css",
-    "main.js": "./static/js/main.71ee2592.js",
+    "main.css": "./static/css/main.da783083.css",
+    "main.js": "./static/js/main.9dbaf820.js",
     "static/media/goal-2.jpg": "./static/media/goal-2.6691961a9483d602253f.jpg",
     "static/media/goal-3.jpg": "./static/media/goal-3.bab9ea9ee5a4c871c529.jpg",
     "static/media/goal-4.jpg": "./static/media/goal-4.742dc63fec5e3d45aa35.jpg",
@@ -36,12 +36,15 @@
     "static/media/rubik-latin-wght-normal.woff2": "./static/media/rubik-latin-wght-normal.d99519627863392d2f0c.woff2",
     "static/media/rubik-arabic-wght-normal.woff2": "./static/media/rubik-arabic-wght-normal.618841475d7a2dac093d.woff2",
     "static/media/rubik-latin-ext-wght-normal.woff2": "./static/media/rubik-latin-ext-wght-normal.a6a758a2eadfbdf2a14d.woff2",
+    "static/media/tf.svg": "./static/media/tf.338a8e191c702dfe16fa6adf00dbc9c2.svg",
     "static/media/IllustrationDark.svg": "./static/media/IllustrationDark.ef0959272fe757af05ba487d43b9c579.svg",
     "static/media/IllustrationLight.svg": "./static/media/IllustrationLight.21e8276cbff5956d493efec246097fb7.svg",
     "static/media/rubik-cyrillic-wght-normal.woff2": "./static/media/rubik-cyrillic-wght-normal.8191f794fa7b5bfdad5d.woff2",
     "static/media/roadmap-background-stars.png": "./static/media/roadmap-background-stars.06b7a09510a896c4672e.png",
     "static/media/rubik-cyrillic-ext-wght-normal.woff2": "./static/media/rubik-cyrillic-ext-wght-normal.423a58d2de895ee48aeb.woff2",
+    "static/media/logoDark.svg": "./static/media/logoDark.5c8dad89964a32970ab8294b334f64cf.svg",
     "static/media/rubik-hebrew-wght-normal.woff2": "./static/media/rubik-hebrew-wght-normal.7363e8f72b579afbdf4e.woff2",
+    "static/media/logo.svg": "./static/media/logo.1a0ff2ea1c95745242bde0802d323bc9.svg",
     "static/media/roadmap-paw-dark.svg": "./static/media/roadmap-paw-dark.e9d92a082f1c589b3bfd55afd7f35be1.svg",
     "static/media/roadmap-paw-light.svg": "./static/media/roadmap-paw-light.a3bf21f53dd101ff87bacc916954a928.svg",
     "static/media/sunPlain.svg": "./static/media/sunPlain.0dd2aa6ccd17495be5b6eb84a534257d.svg",
@@ -55,7 +58,6 @@
     "static/media/roadmap-ellipses-dark.svg": "./static/media/roadmap-ellipses-dark.5a6968bfcd310525738077d34457fbd6.svg",
     "static/media/telegram.svg": "./static/media/telegram.dc8e66a8c63b007b9ee694f025cfb050.svg",
     "static/media/notes.svg": "./static/media/notes.19fd970d8f202ca88d6a2e4e199d2849.svg",
-    "static/media/medium.svg": "./static/media/medium.f248cad337cdca06c7fd99c5c018f94b.svg",
     "static/media/ThemeSwitchDark.svg": "./static/media/ThemeSwitchDark.e39e2e412b1666d7fb2fd06b971c6d6f.svg",
     "static/media/Circle.svg": "./static/media/Circle.0b1d8d0984e23eac18f969384dc28cac.svg",
     "index.html": "./index.html",
@@ -77,11 +79,11 @@
     "static/media/roadmap-star-white-sm.svg": "./static/media/roadmap-star-white-sm.c1fe151c6f37a659357bf2fcf2e28554.svg",
     "static/media/roadmap-star-gray-sm.svg": "./static/media/roadmap-star-gray-sm.ec765288261721e934794f21ef74de8b.svg",
     "static/media/PRstar.svg": "./static/media/PRstar.97506e79052bbd3273945bb94218ba07.svg",
-    "main.335631d3.css.map": "./static/css/main.335631d3.css.map",
-    "main.71ee2592.js.map": "./static/js/main.71ee2592.js.map"
+    "main.da783083.css.map": "./static/css/main.da783083.css.map",
+    "main.9dbaf820.js.map": "./static/js/main.9dbaf820.js.map"
   },
   "entrypoints": [
-    "static/css/main.335631d3.css",
-    "static/js/main.71ee2592.js"
+    "static/css/main.da783083.css",
+    "static/js/main.9dbaf820.js"
   ]
 }
