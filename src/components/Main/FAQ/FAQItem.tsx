@@ -22,7 +22,7 @@ export default function FAQItem({ question, answer }: FAQItemProps) {
       <div className='bg-bread rounded-2xl p-1 h-full sm:h-[84px] mt-[30px]'>
         <div
           onClick={() => setIsAnswerShown(!isAnswerShown)}
-          className='w-full h-full bg-clip-border rounded-xl px-[35px] bg-white dark:bg-[#000000] flex justify-between items-center cursor-pointer'
+          className='w-full h-full bg-clip-border rounded-xl px-[35px] bg-white dark:bg-black-50 flex justify-between items-center cursor-pointer'
         >
           <span className='dark:text-white font-Rubic variable text-lg xl:text-xl font-normal'>
             {question}
