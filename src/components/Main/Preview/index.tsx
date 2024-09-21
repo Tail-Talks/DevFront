@@ -1,10 +1,9 @@
 import React from 'react'
 import { useTheme } from '../../../context/ThemeContext'
 import ButtonBread from '../../UI/ButtonBread'
+import Wallet from '../../Wallet'
 import illustrationDark from '../../../assets/svg/preview/IllustrationDark.svg'
 import illustrationLight from '../../../assets/svg/preview/IllustrationLight.svg'
-import info from '../../../assets/svg/button/info.svg'
-import infoBlack from '../../../assets/svg/button/infoBlack.svg'
 
 export default function Preview() {
   const { theme } = useTheme()
@@ -30,14 +29,7 @@ export default function Preview() {
                 className='w-[310px] lg:text-base h-[47px] lg:h-[50px] xl:text-lg xl:h-16'/>
               </a>
               <div className='p-[1px] rounded-2xl mr-auto bg-gradient-to-tr from-[#FF4C8C] to-[#FFAE4E]'>
-                <button
-                  type='button'
-                  className='relative font-sans font-bold text-black-50 dark:text-white text-base xl:text-lg h-[47px] lg:h-[50px] xl:h-16 rounded-2xl w-[310px] flex items-center justify-center bg-white dark:bg-black-50'>
-                  Подключить кошелек
-                  <img
-                    className='ml-4'
-                    src={theme ? info : infoBlack} alt='info' />
-                </button>
+                <Wallet />
               </div>
             </div>
           </div>
