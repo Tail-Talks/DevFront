@@ -2,8 +2,6 @@ import React from 'react'
 import ButtonBread from '../UI/ButtonBread'
 //SVG
 import vk from '../../assets/svg/footer/vk.svg'
-import tf from '../../assets/svg/footer/tf.svg'
-import dzen from '../../assets/svg/footer/dzen.svg'
 import vcru from '../../assets/svg/footer/vcru.svg'
 import telegram from '../../assets/svg/footer/telegram.svg'
 
@@ -54,14 +52,6 @@ export default function Footer() {
                   <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vk} alt="Vk" />
                     <p className='text-sm font-Rubik dark:text-white'>Вконтакте</p>
-                  </a>
-                  <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank" className='flex gap-2.5 items-center'>
-                    <img src={tf} alt="tf" />
-                    <p className='text-sm font-Rubik dark:text-white'>ТЖ</p>
-                  </a>
-                  <a href="https://dzen.ru/tailtalksblog" target="_blank" className='flex gap-2.5 items-center'>
-                    <img src={dzen} alt="Yandex Dzen" />
-                    <p className='text-sm font-Rubik dark:text-white'>Yandex Dzen</p>
                   </a>
                   <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vcru} alt="VC.ru" />
@@ -126,14 +116,6 @@ export default function Footer() {
                     <img src={vk} alt="Vk" />
                     <p className='text-sm font-Rubik dark:text-white'>VK</p>
                   </a>
-                  <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank" className='flex gap-2.5 items-center'>
-                    <img src={tf} alt="tf" />
-                    <p className='text-sm font-Rubik dark:text-white'>ТЖ</p>
-                  </a>
-                  <a href="https://dzen.ru/tailtalksblog" target="_blank" className='flex gap-2.5 items-center'>
-                    <img src={dzen} alt="Yandex Dzen" />
-                    <p className='text-sm font-Rubik dark:text-white'>Yandex Dzen</p>
-                  </a>
                   <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
                     <img src={vcru} alt="VC.ru" />
                     <p className='text-sm font-Rubik dark:text-white'>VC.ru</p>
@@ -167,12 +149,6 @@ export default function Footer() {
             <div className='flex gap-6'>
               <a href="https://vk.com/club226488112" target="_blank">
                 <img src={vk} alt="Vk" />
-              </a>
-              <a href="https://journal.tinkoff.ru/user3323388/#article" target="_blank">
-                <img src={tf} alt="tf" />
-              </a>
-              <a href="https://dzen.ru/tailtalksblog" target="_blank">
-                <img src={dzen} alt="Yandex Dzen" />
               </a>
               <a href="https://vc.ru/u/3474601-tail-talks" target="_blank">
                 <img src={vcru} alt="VC.ru" />
