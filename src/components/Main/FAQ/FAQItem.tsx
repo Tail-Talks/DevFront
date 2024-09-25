@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import style from './faq.module.css'
 
 interface FAQItemProps {
   question: string;
@@ -19,10 +20,10 @@ export default function FAQItem({ question, answer }: FAQItemProps) {
 
   return (
     <div>
-      <div className='bg-bread rounded-2xl p-1 h-full sm:h-[84px] mt-[30px]'>
+      <div className={`${style.faq__item}  h-full sm:h-[84px] mt-[30px] `}>
         <div
           onClick={() => setIsAnswerShown(!isAnswerShown)}
-          className='w-full h-full bg-clip-border rounded-xl px-[35px] bg-white dark:bg-black-50 flex justify-between items-center cursor-pointer'
+          className='w-full h-full bg-clip-border rounded-xl px-[35px]  flex justify-between items-center cursor-pointer'
         >
           <span className='dark:text-white font-Rubic variable text-lg xl:text-xl font-normal'>
             {question}

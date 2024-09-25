@@ -1,0 +1,24 @@
+.faq__item {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  border-radius: 1rem;
+  overflow: visible;
+}
+
+.faq__item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  border-radius: 1rem;
+  background: linear-gradient(45deg, #FF4C8C, #FFAE4E);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); /* Обрезаем градиент до рамки */
+  mask-composite: exclude; /* Режем маску, чтобы осталось только по краям */
+  -webkit-mask-composite: destination-out; /* Для Safari */
+  z-index: -1;
+  pointer-events: none;
+}

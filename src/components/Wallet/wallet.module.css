@@ -1,0 +1,30 @@
+.wallet__container {
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  border-radius: 1rem;
+  overflow: visible;
+  transition: all 0.3s ease;
+}
+
+.wallet__container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  border-radius: 1rem;
+  background: linear-gradient(45deg, #FF4C8C, #FFAE4E);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); /* Обрезаем градиент до рамки */
+  mask-composite: exclude; /* Режем маску, чтобы осталось только по краям */
+  -webkit-mask-composite: destination-out; /* Для Safari */
+  z-index: -1;
+  pointer-events: none;
+}
+
+.wallet__container:hover {
+  box-shadow: 0 0 10px 10px rgba(255, 76, 140, 0.3);
+}
