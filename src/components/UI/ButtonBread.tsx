@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames' // Adds additional classes if they are passed through props
+import style from './button.module.css'
 
 interface ButtonBreadProps {
 	name: string,
@@ -16,7 +17,7 @@ const ButtonBread: React.FC<ButtonBreadProps> = (props) => {
 		type={type}
 		{...props}
 		className={classNames(
-			'font-sans font-bold text-lg h-16 rounded-2xl bg-bread',
+			`${style.button} font-sans font-bold text-lg h-16 rounded-2xl bg-bread focus:outline-none focus:ring-0 focus:border-transparent focus-visible:none`,
 			width || 'w-96', // // Устанавливает ширину по умолчанию или ширину из пропсов
 			className // Добавляет дополнительные классы, если они переданы через пропсы
 			)}>
