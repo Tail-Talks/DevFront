@@ -15,7 +15,7 @@ export default function FormSubmitSuccess({ isOpen, closeModal }: FormSubmitSucc
       isOpen={isOpen}
       onRequestClose={closeModal}
       className="w-full h-full flex justify-center items-center"
-      overlayClassName="fixed inset-0 bg-black-80 bg-opacity-55" // Классы для наложения модального окна
+      overlayClassName="fixed inset-0 z-20 bg-black-80 bg-opacity-55" // Классы для наложения модального окна
       shouldCloseOnOverlayClick={true}
     >
       <div className="w-full h-full flex justify-center items-center" onClick={closeModal}>

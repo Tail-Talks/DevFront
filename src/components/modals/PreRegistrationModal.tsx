@@ -35,7 +35,7 @@ export default function PreRegistrationModal({ isOpen, closeModal }: PreRegistra
       onRequestClose={closeModal}
       shouldCloseOnOverlayClick={true}
       className='flex justify-center items-center h-full'
-      overlayClassName="fixed inset-0 bg-black-80 dark:bg-transparent flex justify-center items-center"
+      overlayClassName="fixed inset-0 z-20 bg-black-80 dark:bg-transparent flex justify-center items-center"
     >
       <div className='mx-auto w-[532px] h-[730px] flex flex-col justify-between items-center bg-white rounded-2xl py-12'>
         <img
