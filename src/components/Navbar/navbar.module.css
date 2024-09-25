@@ -1,0 +1,23 @@
+.navbar__link {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Стили для псевдоэлемента ::before */
+.navbar__link::before {
+  content: "";
+  position: absolute;
+  width: 0; /* Начальная ширина 0 */
+  height: 2px;
+  bottom: -33px;
+  left: 0;
+  background: linear-gradient(45deg, #FF4C8C, #FFAE4E); /* Исправлено на background */
+  transition: all 0.3s ease-in-out;
+  opacity: 0; /* Начальная непрозрачность */
+}
+
+/* Эффект при наведении */
+.navbar__link:hover::before {
+  width: 100%; /* При наведении ширина становится 100% */
+  opacity: 1; /* Делает элемент видимым */
+}
