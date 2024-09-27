@@ -13,11 +13,11 @@ export default function SocResp() {
   return (
     <main className="xs:mt-[115px] xs:container mx-auto mt-[125px] px-[24px]">
       <section className="mb-[30px] flex flex-col items-center justify-between">
-        <h1 className="xs:text-4xl mb-[30px] font-[Comfortaa] text-2xl font-semibold text-white">
+        <h1 className="xs:text-4xl mb-[30px] font-[Comfortaa] text-2xl font-semibold text-[#000000CC] dark:text-white">
           Социальная ответственность платформы Tail Talks: связь,
           забота&nbsp;и&nbsp;добро
         </h1>
-        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
           Дорогие друзья! Добро пожаловать на нашу уникальную социальную сеть,
           где каждый лайк, каждая фотография и каждое сообщение несут в себе не
           только радость общения, но и ответственность перед миром животных.
@@ -25,10 +25,10 @@ export default function SocResp() {
       </section>
       <section className="xs:flex-row mb-[30px] flex flex-col items-center justify-between">
         <div className="xs:mr-[40px] flex flex-col">
-          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#BEBEBE]">
+          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#000000CC] dark:text-[#BEBEBE]">
             1. Общение и поддержка
           </h2>
-          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
             Мы создали это пространство для вас, чтобы вы могли делиться своими
             радостями и заботой о питомцах. Здесь вы найдете единомышленников,
             которые разделяют вашу любовь к животным. Общение — это не только
@@ -50,10 +50,10 @@ export default function SocResp() {
         </div>
       </section>
       <section className="mb-[30px] flex flex-col items-start">
-        <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#BEBEBE]">
+        <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#000000CC] dark:text-[#BEBEBE]">
           2. Благотворительность и помощь
         </h2>
-        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
           Наши хвостатые друзья нуждаются в нашей помощи, и мы гордимся тем, что
           наша платформа способствует благотворительности. Создавайте
           мероприятия внутри платформы, собирайте единомышленников и вместе вы
@@ -63,10 +63,10 @@ export default function SocResp() {
       </section>
       <section className="xs:flex-row mb-[30px] flex flex-col items-center justify-between">
         <div className="xs:mr-[40px] flex flex-col">
-          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#BEBEBE]">
+          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#000000CC] dark:text-[#BEBEBE]">
             3. Поиск пропавших лапок
           </h2>
-          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
             Мы верим, что каждая потерянная лапка может быть найдена. Если вы
             увидели потеряшку на улице, сфотографируйте его и загрузите фото в
             приложение. Наша система автоматически найдет профиль потерянного
@@ -87,22 +87,22 @@ export default function SocResp() {
         </div>
       </section>
       <section className="mb-[30px] flex flex-col items-start">
-        <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#BEBEBE]">
+        <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#000000CC] dark:text-[#BEBEBE]">
           4. Совместные прогулки и встречи
         </h2>
-        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+        <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
           Организуйте совместные прогулки с другими участниками. Встречайтесь не
           прогулке, обменивайтесь опытом и дарите своим питомцам новых друзей.
           Ведь общение — это не только для нас, но и для наших пушистых
           спутников.
         </p>
       </section>
-      <section className="xs:my-0 xs:flex-row mb-[100px] mt-[20px] flex flex-col items-center justify-between">
+      <section className="xs:my-0 mb-[100px] mt-[20px] flex flex-col items-center justify-between">
         <div className="xs:mr-[40px] mb-[30px] flex flex-col">
-          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#BEBEBE]">
+          <h2 className="mb-6 font-[Rubik] text-xl font-medium text-[#000000CC] dark:text-[#BEBEBE]">
             5. Любовь и забота
           </h2>
-          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#BEBEBE]">
+          <p className="xs:text-lg font-[Rubik] text-base font-light text-[#000000CC] dark:text-[#BEBEBE]">
             Мы верим, что наша платформа поможет укрепить связь между хозяевами
             и питомцами. Ведь они — часть нашей семьи, наши верные друзья.
             Давайте делать мир ярче и добрее вместе!
@@ -121,7 +121,7 @@ export default function SocResp() {
               />
             </picture>
           </div>
-          <p className="text-center font-[Comfortaa] text-2xl font-semibold text-[#BEBEBE] lg:w-[426px]">
+          <p className="text-center font-[Comfortaa] text-2xl font-semibold text-[#000000CC] lg:w-[426px] dark:text-[#BEBEBE]">
             Присоединяйтесь к нам, и давайте вместе создадим лучший мир для
             наших пушистых спутников! ❤️
           </p>
