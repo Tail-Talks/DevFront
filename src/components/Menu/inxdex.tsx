@@ -23,6 +23,10 @@ export default function Menu({ isOpen, closeModal }: MenuProps) {
     }
   }, [isOpen])
 
+  const handleCloseMenu = () => {
+    closeModal()
+  }
+
   return (
     <Modal
       isOpen={isOpen}
@@ -35,26 +39,31 @@ export default function Menu({ isOpen, closeModal }: MenuProps) {
           <div className='flex flex-col gap-4'>
             <a
               href="#mission"
+              onClick={handleCloseMenu}
               className='font-Rubik text-black-80 dark:text-white font-medium'>
               Наша миссия
             </a>
             <a
               href="#how_it_works"
+              onClick={handleCloseMenu}
               className='font-Rubik text-black-80 dark:text-white font-medium'>
               Принцип работы
             </a>
             <a
               href="#roadmap"
+              onClick={handleCloseMenu}
               className='font-Rubik  text-black-80 dark:text-white font-medium'>
               Дорожная карта
             </a>
             <a
               href="#community"
+              onClick={handleCloseMenu}
               className='font-Rubik text-black-80 dark:text-white font-medium'>
               Сообщество
             </a>
             <a
               href="#faq"
+              onClick={handleCloseMenu}
               className='font-Rubik text-black-80 dark:text-white font-medium'>
               FAQ
             </a>
