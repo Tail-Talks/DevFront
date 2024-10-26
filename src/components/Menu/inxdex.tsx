@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Modal from 'react-modal'
 import ButtonBread from '../UI/ButtonBread'
+import { Link } from 'react-router-dom'
 
 //SVG
 import vk from '../../assets/svg/footer/vk.svg'
@@ -91,7 +92,7 @@ export default function Menu({ isOpen, closeModal }: MenuProps) {
           </div>
           <div className='flex flex-col gap-3'>
             <a href="" className='text-sm font-medium font-Rubik dark:text-white'>Безопасность данных Tail Talks</a>
-            <a href="" className='text-sm font-medium font-Rubik dark:text-white'>Социальная ответственность</a>
+            <Link to="/socresp" className='text-sm font-medium font-Rubik dark:text-white'>Социальная ответственность</Link>
             <a href="" className='text-sm font-medium font-Rubik dark:text-white'>Благотворительность</a>
           </div>
           <ButtonBread
