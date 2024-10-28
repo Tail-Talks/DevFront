@@ -4,6 +4,7 @@ import ButtonBread from '../UI/ButtonBread'
 import vk from '../../assets/svg/footer/vk.svg'
 import vcru from '../../assets/svg/footer/vcru.svg'
 import telegram from '../../assets/svg/footer/telegram.svg'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -49,15 +50,15 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col gap-6'>
                   <h5 className='font-Rubik text-black-80 dark:text-white font-medium'>Социальные сети</h5>
-                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={vk} alt="Vk" />
                     <p className='text-sm font-Rubik dark:text-white'>Вконтакте</p>
                   </a>
-                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={vcru} alt="VC.ru" />
                     <p className='text-sm font-Rubik dark:text-white'>VC.ru</p>
                   </a>
-                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={telegram} alt="Telegram" />
                     <p className='text-sm font-Rubik dark:text-white'>Telegram</p>
                   </a>
@@ -68,7 +69,7 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col gap-6'>
                   <a href="" className='text-sm font-Rubik dark:text-white'>Безопасность данных Tail Talks</a>
-                  <a href="" className='text-sm font-Rubik dark:text-white'>Социальная ответственность</a>
+                  <Link to="/socresp" className='text-sm font-Rubik dark:text-white'>Социальная ответственность</Link>
                   <a href="" className='text-sm font-Rubik dark:text-white'>Благотворительность</a>
                 </div>
               </div>
@@ -108,19 +109,19 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col gap-6'>
                   <a href="" className='text-sm font-Rubik dark:text-white'>Безопасность данных Tail Talks</a>
-                  <a href="" className='text-sm font-Rubik dark:text-white'>Социальная ответственность</a>
+                  <Link to="/socresp" className='text-sm font-Rubik dark:text-white'>Социальная ответственность</Link>
                   <a href="" className='text-sm font-Rubik dark:text-white'>Благотворительность</a>
                 </div>
                 <div className='flex flex-col gap-6'>
-                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://vk.com/club226488112" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={vk} alt="Vk" />
                     <p className='text-sm font-Rubik dark:text-white'>VK</p>
                   </a>
-                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={vcru} alt="VC.ru" />
                     <p className='text-sm font-Rubik dark:text-white'>VC.ru</p>
                   </a>
-                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center'>
+                  <a href="https://t.me/tailtalkstg/1" target="_blank" className='flex gap-2.5 items-center' rel="noreferrer">
                     <img src={telegram} alt="Telegram" />
                     <p className='text-sm font-Rubik dark:text-white'>Telegram</p>
                   </a>
@@ -147,13 +148,13 @@ export default function Footer() {
               <a href="#faq" className='font-Rubik text-black-80 dark:text-white font-medium'>FAQ</a>
             </div>
             <div className='flex gap-6'>
-              <a href="https://vk.com/club226488112" target="_blank">
+              <a href="https://vk.com/club226488112" target="_blank" rel="noreferrer">
                 <img src={vk} alt="Vk" />
               </a>
-              <a href="https://vc.ru/u/3474601-tail-talks" target="_blank">
+              <a href="https://vc.ru/u/3474601-tail-talks" target="_blank" rel="noreferrer">
                 <img src={vcru} alt="VC.ru" />
               </a>
-              <a href="https://t.me/tailtalkstg/1" target="_blank">
+              <a href="https://t.me/tailtalkstg/1" target="_blank" rel="noreferrer">
                 <img src={telegram} alt="Telegram" />
               </a>
             </div>
@@ -161,7 +162,7 @@ export default function Footer() {
           <div className='hidden xl:flex xl:justify-between xl:mt-10'>
             <div className='flex flex-col gap-6'>
               <a href="" className='text-sm font-Rubik text-black-80 dark:text-white'>Безопасность данных Tail Talks</a>
-              <a href="" className='text-sm font-Rubik text-black-80 dark:text-white'>Социальная ответственность</a>
+              <Link to="/socresp" className='text-sm font-Rubik text-black-80 dark:text-white'>Социальная ответственность</Link>
               <a href="" className='text-sm font-Rubik text-black-80 dark:text-white'>Благотворительность</a>
             </div>
             <div className='flex flex-col gap-6 justify-end'>
